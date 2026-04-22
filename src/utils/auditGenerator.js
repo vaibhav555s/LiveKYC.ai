@@ -113,7 +113,7 @@ export const generateAuditReport = async (applicationId, generatedBy = 'SYSTEM')
         document_type: 'aadhaar', // implicitly default currently
         verified: kycData.biometric_match_status === 'matched',
         face_match_score: kycData.liveness_score ? (kycData.liveness_score * 100).toFixed(0) : 'N/A',
-        verification_method: 'AgentFinance AI Engine',
+        verification_method: 'LiveKYC.ai Engine',
         document_url: kycData.aadhaar_image_url,
         face_url: kycData.face_capture_url
       } : null,

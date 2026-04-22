@@ -191,7 +191,7 @@ export default function LandingPage() {
       <section className="py-60 px-6">
         <div className="max-w-7xl mx-auto flex flex-col lg:flex-row items-start justify-between gap-20">
           <div className="hero-heading opacity-[0.03] select-none">
-            AgentFinance AI
+            LiveKYC.ai
           </div>
           
           <div className="lg:mt-10">

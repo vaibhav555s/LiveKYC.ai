@@ -239,7 +239,7 @@ export async function processNegotiation({ userText, currentOffer, policyLimits,
     ? negotiationLog.map(r => `  [${r.type}] Round ${r.round}: ${r.message}`).join('\n')
     : '  (none — this is the first response)';
 
-  const systemPrompt = `You are a voice-based AI Loan Negotiation Officer at AgentFinance India. You are in a LIVE VIDEO CALL.
+  const systemPrompt = `You are a voice-based AI Loan Negotiation Officer at LiveKYC.ai. You are in a LIVE VIDEO CALL.
 
 ━━━ POLICY LIMITS (HARD — NEVER VIOLATE) ━━━
 • Maximum eligible amount: ₹${policyLimits.maxAmount.toLocaleString('en-IN')} (FOIR-based cap)

@@ -62,7 +62,7 @@ export async function generateResponse(transcript, extractedData) {
     }
 
     // Build the system prompt (phase-aware)
-    const systemPrompt = `You are a professional, polite, and concise AI Loan Officer at AgentFinance India.
+    const systemPrompt = `You are a professional, polite, and concise AI Loan Officer at LiveKYC.ai.
 
 Session Phase: ${currentPhase}
 

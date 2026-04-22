@@ -33,7 +33,7 @@ export default function Navbar() {
       <div className="glass-nav px-6 h-12 flex items-center gap-6 whitespace-nowrap shadow-2xl">
         <Link to="/" className="flex items-center gap-2 text-white">
           <span className="opacity-80">{flowerOfLife}</span>
-          <span className="text-[13px] font-medium tracking-tight">AgentFinance</span>
+          <span className="text-[13px] font-medium tracking-tight">LiveKYC.ai</span>
         </Link>
         
         <div className="hidden md:flex items-center gap-5">

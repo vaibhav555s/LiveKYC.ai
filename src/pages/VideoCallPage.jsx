@@ -967,7 +967,7 @@ function PanelOffer({ offer, bureau, policy, negotiation, onUpdateOffer, screenS
 function PanelConsent({ consent, token }) {
   function downloadAuditTrail() {
     const blob = new Blob([
-      `CONSENT TRAIL — AgentFinance AI\n\nSession ID: ${token}\nTimestamp: ${consent.timestamp}\n\nConsent Phrase: "${consent.phrase}"\n\nSHA-256 Hash: ${consent.hash}\n\nThis is a tamper-evident record. Do not modify.`
+      `CONSENT TRAIL — LiveKYC.ai\n\nSession ID: ${token}\nTimestamp: ${consent.timestamp}\n\nConsent Phrase: "${consent.phrase}"\n\nSHA-256 Hash: ${consent.hash}\n\nThis is a tamper-evident record. Do not modify.`
     ], { type: 'text/plain' });
     const url = URL.createObjectURL(blob);
     const a = document.createElement('a');
